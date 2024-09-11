@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.21.2",
+    "rollup-plugin-copy-assets": "^2.0.3",
+    "rollup-plugin-dts": "^6.1.1",
+    "tslib": "^2.7.0",
+    "typescript": "^5.6.2"
+  }
+}
