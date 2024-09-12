@@ -1,7 +1,7 @@
 var edgekv_access_tokens = {
-		"namespace-formvalidator" : { 
-		"name": "token4validator",
-		"value" : "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJha2FtYWkuY29tL0VkZ2VEQi9QdWxzYXIvdjAuMzEuMCIsInN1YiI6IjM4OTciLCJqdGkiOiI2MzQwNDE1MC1hMDg4LTUzYzItOGFhZi1iYTkyY2Q1OWY4ZDkiLCJpYXQiOjE2OTc4MjI2MDAsImV4cCI6MTcwNDA2NzE5OSwiZW52IjpbInAiLCJzIl0sImNwYyI6IjExMDMwNzYiLCJyZXFpZCI6ImFrYW1haSIsImV3aWRzIjpbImFsbCJdLCJub2VjbCI6dHJ1ZSwibmFtZXNwYWNlLWZvcm12YWxpZGF0b3IiOlsiciIsImQiLCJ3Il0sImdlby1mb3JtdmFsaWRhdG9yIjoidXMifQ.Cok_nMqIbhwr-duZcX6DFnYHh4hNxmcEfKX8AcCVAsYLPbj0Pm-64w4MLUrb4-QY6icK4ywVn_7GV1rwC3SFLoXKtQtLno3lQEg-fbQYS20colVmTk2OuxchnhQi0s5X5YIiTWJoDjpZvYPiflQcH08hQ6aZdy9NjPwAO82Mwl5228R4vKMhEtzfOCYqd3sXVHp2R1QsVGrEJS58rflm1uUsb0mRt-138LDdoaZ6-arzWTgY7y-cUqQQaR_JpM0nmuJm_NOBHYtD8shiCSjMYERD9fMyHTob2z96Nkbx6jdTNObVDT0ttsD2xlELpb0Z8S0nk2OXoGMfv-FRs9ZITw"
+		"namespace-something" : { 
+		"name": "token4something",
+		"value" : "sometoken"
 	}
 }
 export { edgekv_access_tokens };

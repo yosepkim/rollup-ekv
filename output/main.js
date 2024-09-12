@@ -1,5 +1,7 @@
 'use strict';
 
+var edgekv_js = require('./edgekv.js');
+
 /******************************************************************************
 Copyright (c) Microsoft Corporation.
 
@@ -66,6 +68,7 @@ function onClientRequest(request) {
         var hints;
         return __generator(this, function (_a) {
             hints = [];
+            new edgekv_js.EdgeKV();
             request.setVariable(PMUSER_103_HINTS, hints.join(',')); //Check variable size limits https://techdocs.akamai.com/edgeworkers/docs/request-object#setvariable
             return [2 /*return*/];
         });

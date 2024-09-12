@@ -2,6 +2,7 @@ import copy from 'rollup-plugin-copy-assets';
 import typescript from '@rollup/plugin-typescript';
 import commonjs from '@rollup/plugin-commonjs';
 import resolve from '@rollup/plugin-node-resolve'
+import { fileURLToPath } from 'node:url';
 
 export default {
   input: './src/main.ts',
@@ -9,6 +10,14 @@ export default {
     dir: 'output',
     format: 'cjs'
   },
+  external: [
+    fileURLToPath(
+        new URL(
+            'src/edgekv.js',
+            import.meta.url
+        )
+    ),
+  ],
   plugins: [
     typescript(),
     commonjs(),
@@ -19,6 +28,6 @@ export default {
         './src/edgekv_tokens.js',
         './src/edgekv.js',
       ],
-    })
+    }),
   ]
 };
