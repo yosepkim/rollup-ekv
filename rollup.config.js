@@ -8,7 +8,7 @@ export default {
   input: './src/main.ts',
   output: {
     dir: 'output',
-    format: 'cjs'
+    format: 'es'
   },
   external: [
     fileURLToPath(

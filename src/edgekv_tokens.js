@@ -1,7 +1,7 @@
 var edgekv_access_tokens = {
-		"namespace-something" : { 
+	"namespace-something" : { 
 		"name": "token4something",
-		"value" : "sometoken"
+		"reference" : "some-token"
 	}
 }
 export { edgekv_access_tokens };
